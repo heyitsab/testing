@@ -1,1 +1,1 @@
-class RubyClass end;
+class MyRubyClass end;
