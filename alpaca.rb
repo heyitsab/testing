@@ -1,10 +1,3 @@
-class Alpaca 
-
-    def initialize(name:, color:)
-        @name = name
-        @color = color
-    end
-
 class Alpaca
   attr_accessor :name, :age, :color, :wool_length
 
