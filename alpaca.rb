@@ -8,6 +8,9 @@ class Alpaca
     @wool_length = wool_length
   end
 
+  def shear
+  end
+
   def feed(food)
     "Alpaca #{@name} is eating #{food}."
   end
