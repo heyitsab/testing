@@ -1,1 +1,0 @@
-class MyRubyClass end;
