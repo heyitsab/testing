@@ -8,15 +8,6 @@ class Alpaca
     @wool_length = wool_length
   end
 
-  def shear
-    if @wool_length > 0
-      @wool_length = 0
-      "Alpaca #{@name} has been sheared."
-    else
-      "Alpaca #{@name} has no wool to shear."
-    end
-  end
-
   def feed(food)
     "Alpaca #{@name} is eating #{food}."
   end
