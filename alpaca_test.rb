@@ -4,6 +4,7 @@ class BindingPryFoundError < StandardError; end
 def check_files_for_puts(files)
   files.each do |file|
     if File.exist?(file)
+      puts(file)
       File.foreach(file).with_index do |line, line_num|
         # Match `puts` method using a regular expression
         if line.match?(/^\s*puts\s+/)
