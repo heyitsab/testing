@@ -36,6 +36,6 @@ def check_files_for_binding_pry(files)
 end
 
 files_to_check = ['alpaca.rb']
-
+raise "oh no"
 check_files_for_puts(files_to_check)
 check_files_for_binding_pry(files_to_check)
