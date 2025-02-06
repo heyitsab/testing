@@ -2,6 +2,7 @@ class PutsStatementFoundError < StandardError; end
 class BindingPryFoundError < StandardError; end
 
 def check_files_for_puts(files)
+  raise "oh no"
   files.each do |file|
     if File.exist?(file)
       puts(file)
