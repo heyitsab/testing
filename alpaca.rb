@@ -9,6 +9,7 @@ class Alpaca
   end
 
   def feed(food)
+    puts "hello"
     "Alpaca #{@name} is eating #{food}."
   end
 
