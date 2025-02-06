@@ -2,13 +2,9 @@ class PutsStatementFoundError < StandardError; end
 class BindingPryFoundError < StandardError; end
 
 def check_files_for_puts(files)
-  raise "oh no"
-  puts "hello"
   files.each do |file|
     if File.exist?(file)
-      puts "file exists"
       File.foreach(file).with_index do |line, line_num|
-      puts line
         # Match `puts` method using a regular expression
         if line.match?(/^\s*puts\s+/)
           raise PutsStatementFoundError, "File '#{file}' contains 'puts' on line #{line_num + 1}"
@@ -40,5 +36,5 @@ end
 files_to_check = ['alpaca.rb']
 
 # check_files_for_puts(files_to_check)
-raise new StandardError("hello!")
+raise "there was a puts statement found in alpaca.rb"
 check_files_for_binding_pry(files_to_check)
