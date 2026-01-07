@@ -1,263 +1,263 @@
-# Contributing to Testing Repository
+# Kuchangia Katika Hazina ya Testing
 
-Thank you for your interest in contributing to this project! We welcome contributions from everyone and appreciate your effort to help improve this repository.
+Asante kwa nia yako ya kuchangia katika mradi huu! Tunakaribishia michango kutoka kwa kila mtu na tunathamini juhudi zako za kusaidia kuboresha hazina hii.
 
-## Table of Contents
+## Yaliyomo
 
-- [Code of Conduct](#code-of-conduct)
-- [Getting Started](#getting-started)
-- [Development Setup](#development-setup)
-- [How to Contribute](#how-to-contribute)
-- [Coding Standards](#coding-standards)
-- [Testing Guidelines](#testing-guidelines)
-- [Commit Message Guidelines](#commit-message-guidelines)
-- [Pull Request Process](#pull-request-process)
-- [Reporting Issues](#reporting-issues)
-- [Questions and Support](#questions-and-support)
+- [Kanuni za Tabia](#kanuni-za-tabia)
+- [Kuanza](#kuanza)
+- [Usanidi wa Maendeleo](#usanidi-wa-maendeleo)
+- [Jinsi ya Kuchangia](#jinsi-ya-kuchangia)
+- [Viwango vya Uandishi wa Msimbo](#viwango-vya-uandishi-wa-msimbo)
+- [Miongozo ya Majaribio](#miongozo-ya-majaribio)
+- [Miongozo ya Ujumbe wa Commit](#miongozo-ya-ujumbe-wa-commit)
+- [Mchakato wa Pull Request](#mchakato-wa-pull-request)
+- [Kuripoti Matatizo](#kuripoti-matatizo)
+- [Maswali na Usaidizi](#maswali-na-usaidizi)
 
-## Code of Conduct
+## Kanuni za Tabia
 
-By participating in this project, you are expected to uphold our commitment to providing a welcoming and inclusive environment for everyone. Please be respectful, considerate, and professional in all interactions.
+Kwa kushiriki katika mradi huu, unatarajiwa kushikilia ahadi yetu ya kutoa mazingira ya ukarimu na ujumuishaji kwa kila mtu. Tafadhali kuwa mwenye heshima, mwenye kuzingatia na kitaalamu katika mwingiliano wote.
 
-## Getting Started
+## Kuanza
 
-1. **Fork the repository** to your own GitHub account
-2. **Clone your fork** locally:
+1. **Fanya fork ya hazina** kwenye akaunti yako ya GitHub
+2. **Clone fork yako** kwa mtandao wa ndani:
    ```bash
    git clone https://github.com/YOUR-USERNAME/REPOSITORY-NAME.git
    cd REPOSITORY-NAME
    ```
-3. **Create a new branch** for your changes:
+3. **Unda tawi jipya** kwa ajili ya mabadiliko yako:
    ```bash
    git checkout -b feature/your-feature-name
    ```
 
-## Development Setup
+## Usanidi wa Maendeleo
 
-This is a Ruby project. To set up your development environment:
+Huu ni mradi wa Ruby. Ili kusanidi mazingira yako ya maendeleo:
 
-### Prerequisites
+### Mahitaji ya Awali
 
-- Ruby (version 3.0 or higher recommended)
+- Ruby (toleo la 3.0 au juu linashauriwa)
 - Git
 
-### Installation
+### Usakinishaji
 
-1. Install dependencies (if any):
+1. Sakinisha vitegemezi (ikiwa vipo):
    ```bash
    bundle install
    ```
-   If you don't have a Gemfile yet, you can skip this step.
+   Ikiwa bado huna Gemfile, unaweza kuruka hatua hii.
 
-2. Verify your setup by running the tests:
+2. Thibitisha usanidi wako kwa kuendesha majaribio:
    ```bash
    ruby alpaca_test.rb
    ```
 
-## How to Contribute
+## Jinsi ya Kuchangia
 
-We welcome various types of contributions:
+Tunakaribishia aina mbalimbali za michango:
 
-- **Bug fixes**: Help us fix issues in the codebase
-- **New features**: Add new functionality to enhance the project
-- **Documentation**: Improve or add documentation
-- **Tests**: Add or improve test coverage
-- **Code refactoring**: Improve code quality and maintainability
+- **Marekebisho ya hitilafu**: Tusaidie kurekebisha matatizo katika msimbo
+- **Vipengele vipya**: Ongeza utendaji mpya ili kuboresha mradi
+- **Nyaraka**: Boresha au ongeza nyaraka
+- **Majaribio**: Ongeza au boresha upeo wa majaribio
+- **Uboreshaji wa msimbo**: Boresha ubora wa msimbo na uwezo wa kudumishwa
 
-### Before You Start
+### Kabla Hujaanza
 
-- Check the Issues page to see if someone is already working on a similar feature or bug fix
-- For major changes, please open an issue first to discuss what you would like to change
-- Make sure your changes align with the project's goals and scope
+- Angalia ukurasa wa Matatizo ili kuona ikiwa mtu anaendesha tayari kipengele au marekebisho ya hitilafu sawa
+- Kwa mabadiliko makubwa, tafadhali fungua tatizo kwanza ili kujadili unachotaka kubadilisha
+- Hakikisha mabadiliko yako yanalingana na malengo na upeo wa mradi
 
-## Coding Standards
+## Viwango vya Uandishi wa Msimbo
 
-Please follow these coding standards to maintain consistency:
+Tafadhali fuata viwango hivi vya uandishi wa msimbo ili kudumisha uthabiti:
 
-### Ruby Style Guide
+### Mwongozo wa Mtindo wa Ruby
 
-- Follow the [Ruby Style Guide](https://rubystyle.guide/)
-- Use 2 spaces for indentation (not tabs)
-- Keep lines to a reasonable length (80-120 characters)
-- Use descriptive variable and method names
-- Write clear and concise comments when necessary
+- Fuata [Mwongozo wa Mtindo wa Ruby](https://rubystyle.guide/)
+- Tumia nafasi 2 kwa indentation (si tabs)
+- Weka mistari kwa urefu unaofaa (herufi 80-120)
+- Tumia majina ya vigeuzi na mbinu zinazofafanua
+- Andika maoni wazi na mafupi inapohitajika
 
-### Code Quality
+### Ubora wa Msimbo
 
-- **No debugging statements**: Remove all `puts` statements and `binding.pry` calls before submitting your PR
-  - Our test suite checks for these and will fail if they are present
-- **Keep it simple**: Write clean, readable code
-- **DRY principle**: Don't Repeat Yourself - reuse code where appropriate
-- **Single Responsibility**: Each method should do one thing well
+- **Hakuna kauli za utatuzi**: Ondoa kauli zote za `puts` na wito wa `binding.pry` kabla ya kuwasilisha PR yako
+  - Seti yetu ya majaribio inakagua hizi na itashindwa ikiwa zipo
+- **Weka rahisi**: Andika msimbo safi na unaosomeka
+- **Kanuni ya DRY**: Usirudie Mwenyewe - tumia tena msimbo inapofaa
+- **Wajibu Mmoja**: Kila mbinu ifanye jambo moja vizuri
 
-### Documentation
+### Nyaraka
 
-- Add comments for complex logic
-- Update documentation if you change functionality
-- Include examples where helpful
+- Ongeza maoni kwa mantiki changamano
+- Sasisha nyaraka ikiwa unabadilisha utendaji
+- Jumuisha mifano inaposaidia
 
-## Testing Guidelines
+## Miongozo ya Majaribio
 
-All code changes should include appropriate tests:
+Mabadiliko yote ya msimbo yanapaswa kujumuisha majaribio yanayofaa:
 
-### Running Tests
+### Kuendesha Majaribio
 
-Run the test suite to verify your changes:
+Endesha seti ya majaribio ili kuthibitisha mabadiliko yako:
 
 ```bash
 ruby alpaca_test.rb
 ```
 
-### Writing Tests
+### Kuandika Majaribio
 
-- Write tests for new features and bug fixes
-- Follow the existing test structure and naming conventions
-- Ensure all tests pass before submitting your PR
-- Test edge cases and error conditions
+- Andika majaribio kwa vipengele vipya na marekebisho ya hitilafu
+- Fuata muundo wa majaribio uliopokuwepo na itifaki za majina
+- Hakikisha majaribio yote yanapita kabla ya kuwasilisha PR yako
+- Jaribu visa vya makali na hali za hitilafu
 
-### Test Requirements
+### Mahitaji ya Majaribio
 
-- Tests should be clear and descriptive
-- Each test should test one specific behavior
-- Use meaningful assertion messages
-- Clean up any test data or state after tests run
+- Majaribio yanapaswa kuwa wazi na yanayoelezea
+- Kila jaribio linapaswa kujaribu tabia moja maalum
+- Tumia ujumbe wa uthibitisho wenye maana
+- Safisha data yoyote ya majaribio au hali baada ya majaribio kuendesha
 
-## Commit Message Guidelines
+## Miongozo ya Ujumbe wa Commit
 
-Write clear and meaningful commit messages:
+Andika ujumbe wa commit ulio wazi na wenye maana:
 
-### Format
-
-```
-<type>: <short summary>
-
-<optional detailed description>
-```
-
-### Types
-
-- `feat`: A new feature
-- `fix`: A bug fix
-- `docs`: Documentation changes
-- `style`: Code style changes (formatting, etc.)
-- `refactor`: Code refactoring
-- `test`: Adding or updating tests
-- `chore`: Maintenance tasks
-
-### Examples
+### Umbizo
 
 ```
-feat: add method to calculate wool growth rate
+<aina>: <muhtasari mfupi>
 
-fix: correct age validation in Alpaca constructor
-
-docs: update README with usage examples
-
-test: add tests for feed method
+<maelezo ya kina ya hiari>
 ```
 
-### Best Practices
+### Aina
 
-- Use the imperative mood ("add feature" not "added feature")
-- Keep the first line under 50 characters
-- Capitalize the first letter
-- No period at the end of the summary
-- Provide additional context in the body if needed
+- `feat`: Kipengele kipya
+- `fix`: Marekebisho ya hitilafu
+- `docs`: Mabadiliko ya nyaraka
+- `style`: Mabadiliko ya mtindo wa msimbo (uumbizaji, n.k.)
+- `refactor`: Uboreshaji wa msimbo
+- `test`: Kuongeza au kusasisha majaribio
+- `chore`: Kazi za matengenezo
 
-## Pull Request Process
+### Mifano
 
-1. **Update your branch** with the latest changes from main:
+```
+feat: ongeza mbinu ya kuhesabu kiwango cha ukuaji wa sufi
+
+fix: sahihisha uthibitishaji wa umri katika kijengaji cha Alpaca
+
+docs: sasisha README na mifano ya matumizi
+
+test: ongeza majaribio kwa mbinu ya feed
+```
+
+### Mbinu Bora
+
+- Tumia hali ya kiamri ("ongeza kipengele" si "imeongezwa kipengele")
+- Weka mstari wa kwanza chini ya herufi 50
+- Herufi kubwa ya kwanza
+- Hakuna kipindi mwishoni mwa muhtasari
+- Toa muktadha wa ziada katika mwili inahitajika
+
+## Mchakato wa Pull Request
+
+1. **Sasisha tawi lako** na mabadiliko ya hivi karibuni kutoka kwa main:
    ```bash
    git fetch origin
    git rebase origin/main
    ```
 
-2. **Run all tests** to ensure nothing is broken:
+2. **Endesha majaribio yote** ili kuhakikisha hakuna kilichovunjika:
    ```bash
    ruby alpaca_test.rb
    ```
 
-3. **Verify code quality**:
-   - Remove any debugging statements (`puts`, `binding.pry`)
-   - Check for proper formatting and style
-   - Ensure all comments are clear and necessary
+3. **Thibitisha ubora wa msimbo**:
+   - Ondoa kauli zozote za utatuzi (`puts`, `binding.pry`)
+   - Angalia uumbizaji na mtindo sahihi
+   - Hakikisha maoni yote ni wazi na muhimu
 
-4. **Push your changes** to your fork:
+4. **Sukuma mabadiliko yako** kwenye fork yako:
    ```bash
    git push origin feature/your-feature-name
    ```
 
-5. **Create a Pull Request**:
-   - Go to the original repository on GitHub
-   - Click "New Pull Request"
-   - Select your fork and branch
-   - Fill out the PR template with:
-     - Clear description of changes
-     - Why the changes are needed
-     - How to test the changes
-     - Any related issues
+5. **Unda Pull Request**:
+   - Nenda kwenye hazina asili kwenye GitHub
+   - Bofya "New Pull Request"
+   - Chagua fork yako na tawi
+   - Jaza kiolezo cha PR na:
+     - Maelezo wazi ya mabadiliko
+     - Kwa nini mabadiliko yanahitajika
+     - Jinsi ya kujaribu mabadiliko
+     - Matatizo yoyote yanayohusiana
 
-6. **Respond to feedback**:
-   - Address review comments promptly
-   - Make requested changes in new commits
-   - Update your PR with additional context if needed
+6. **Jibu maoni**:
+   - Shughulikia maoni ya mapitio haraka
+   - Fanya mabadiliko yaliyoombwa katika commits mpya
+   - Sasisha PR yako na muktadha wa ziada inahitajika
 
-7. **Wait for approval**:
-   - At least one maintainer review is required
-   - All CI checks must pass
-   - Once approved, a maintainer will merge your PR
+7. **Ngoja idhini**:
+   - Angalau mapitio ya mdumisha mmoja yanahitajika
+   - Ukaguzi wote wa CI lazima upite
+   - Baada ya kuidhinishwa, mdumisha atachanganya PR yako
 
-## Reporting Issues
+## Kuripoti Matatizo
 
-If you find a bug or have a suggestion:
+Ikiwa unapata hitilafu au una pendekezo:
 
-### Before Creating an Issue
+### Kabla ya Kuunda Tatizo
 
-- Search existing issues to avoid duplicates
-- Collect relevant information about the problem
+- Tafuta matatizo yaliyopo ili kuepuka nakala
+- Kusanya taarifa husika kuhusu tatizo
 
-### Creating an Issue
+### Kuunda Tatizo
 
-Include the following information:
+Jumuisha taarifa zifuatazo:
 
-- **Clear title**: Briefly describe the issue
-- **Description**: Detailed explanation of the problem or suggestion
-- **Steps to reproduce** (for bugs):
-  1. What you did
-  2. What you expected to happen
-  3. What actually happened
-- **Environment details**:
-  - Ruby version
-  - Operating system
-  - Any relevant configuration
-- **Code samples**: Include minimal code to reproduce the issue
-- **Error messages**: Include full error messages and stack traces
+- **Kichwa wazi**: Eleza kwa ufupi tatizo
+- **Maelezo**: Maelezo ya kina ya tatizo au pendekezo
+- **Hatua za kurudia** (kwa hitilafu):
+  1. Ulichofanya
+  2. Ulichotarajia kutokea
+  3. Kilichotokea kwa kweli
+- **Maelezo ya mazingira**:
+  - Toleo la Ruby
+  - Mfumo wa uendeshaji
+  - Usanidi wowote husika
+- **Sampuli za msimbo**: Jumuisha msimbo mdogo wa kurudia tatizo
+- **Ujumbe wa hitilafu**: Jumuisha ujumbe kamili wa hitilafu na athari za stack
 
-### Issue Labels
+### Lebo za Tatizo
 
-We use labels to categorize issues:
+Tunatumia lebo kukategorisha matatizo:
 
-- `bug`: Something isn't working
-- `enhancement`: New feature or request
-- `documentation`: Documentation improvements
-- `good first issue`: Good for newcomers
-- `help wanted`: Extra attention is needed
+- `bug`: Kitu hakifanyi kazi
+- `enhancement`: Kipengele kipya au ombi
+- `documentation`: Maboresho ya nyaraka
+- `good first issue`: Nzuri kwa wajanja
+- `help wanted`: Umakini wa ziada unahitajika
 
-## Questions and Support
+## Maswali na Usaidizi
 
-If you have questions or need help:
+Ikiwa una maswali au unahitaji msaada:
 
-- **Check existing issues**: Your question might already be answered
-- **Open a new issue**: Use the issue tracker for questions
-- **Be patient**: Maintainers will respond as soon as possible
-- **Be respectful**: Remember that maintainers are often volunteers
+- **Angalia matatizo yaliyopo**: Swali lako linaweza kuwa limejibiwa tayari
+- **Fungua tatizo jipya**: Tumia kifuatiliaji cha matatizo kwa maswali
+- **Kuwa na subira**: Wadumishaji watajibu haraka iwezekanavyo
+- **Kuwa mwenye heshima**: Kumbuka kwamba wadumishaji mara nyingi ni wajitoleaji
 
-## Recognition
+## Utambuzi
 
-All contributors will be recognized for their contributions. Thank you for making this project better!
+Wachangiaji wote watatambuliwa kwa michango yao. Asante kwa kufanya mradi huu kuwa bora zaidi!
 
 ---
 
-**Happy Contributing!** 🎉
+**Kuchangia Furaha!** 🎉
 
-We appreciate your time and effort in contributing to this project. Every contribution, no matter how small, makes a difference!
+Tunashukuru muda wako na juhudi katika kuchangia katika mradi huu. Kila mchango, haijalishi ni mdogo kiasi gani, unafanya tofauti!
