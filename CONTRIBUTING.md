@@ -24,8 +24,8 @@ By participating in this project, you are expected to uphold our commitment to p
 1. **Fork the repository** to your own GitHub account
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/testing.git
-   cd testing
+   git clone https://github.com/YOUR-USERNAME/REPOSITORY-NAME.git
+   cd REPOSITORY-NAME
    ```
 3. **Create a new branch** for your changes:
    ```bash
@@ -66,7 +66,7 @@ We welcome various types of contributions:
 
 ### Before You Start
 
-- Check the [Issues](https://github.com/heyitsab/testing/issues) page to see if someone is already working on a similar feature or bug fix
+- Check the Issues page to see if someone is already working on a similar feature or bug fix
 - For major changes, please open an issue first to discuss what you would like to change
 - Make sure your changes align with the project's goals and scope
 
