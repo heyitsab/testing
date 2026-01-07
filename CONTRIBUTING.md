@@ -38,7 +38,7 @@ This is a Ruby project. To set up your development environment:
 
 ### Prerequisites
 
-- Ruby (version 2.5 or higher recommended)
+- Ruby (version 3.0 or higher recommended)
 - Git
 
 ### Installation
