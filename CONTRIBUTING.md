@@ -147,7 +147,7 @@ Scrivi messaggi di commit chiari e significativi:
 ### Esempi
 
 ```
-feat: aggiungi metodo per calcolare il tasso di crescita della lana
+feat: aggiungi metodo per calcolare il tasso di crescita della pelliccia
 
 fix: correggi la validazione dell'età nel costruttore Alpaca
 
