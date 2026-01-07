@@ -9,6 +9,7 @@ Grazie per il tuo interesse nel contribuire a questo progetto! Diamo il benvenut
 - [Configurazione dello Sviluppo](#configurazione-dello-sviluppo)
 - [Come Contribuire](#come-contribuire)
 - [Standard di Codifica](#standard-di-codifica)
+- [**Uso degli Emoji** 🎨](#uso-degli-emoji-)
 - [Linee Guida per i Test](#linee-guida-per-i-test)
 - [Linee Guida per i Messaggi di Commit](#linee-guida-per-i-messaggi-di-commit)
 - [Processo di Pull Request](#processo-di-pull-request)
@@ -95,6 +96,106 @@ Si prega di seguire questi standard di codifica per mantenere la coerenza:
 - Aggiungi commenti per la logica complessa
 - Aggiorna la documentazione se modifichi la funzionalità
 - Includi esempi dove utile
+- **Usa emoji per rendere la documentazione più coinvolgente e leggibile! 📝✨**
+
+## Uso degli Emoji 🎨
+
+### ⚠️ IMPORTANTE: Gli Emoji Sono ESSENZIALI ⚠️
+
+**L'uso degli emoji non è opzionale!** Gli emoji rendono il codice, i commenti e la documentazione più espressivi, accessibili e facili da scansionare visivamente. Sono un aspetto fondamentale del nostro stile di contribuzione.
+
+### Perché Gli Emoji Sono Cruciali 💡
+
+- **🎯 Migliorano la chiarezza**: Gli emoji forniscono segnali visivi che aiutano a identificare rapidamente il tipo di contenuto
+- **😊 Rendono il progetto più accogliente**: Un repository amichevole attrae più contributori
+- **📊 Migliorano la leggibilità**: I contributori possono scansionare rapidamente commit, problemi e PR
+- **🌈 Aggiungono personalità**: Gli emoji rendono il progetto più vivace e coinvolgente
+- **✅ Aumentano l'engagement**: Le persone sono più propense a contribuire a progetti che sembrano amichevoli
+
+### Linee Guida per l'Uso degli Emoji 📋
+
+#### Nei Messaggi di Commit ✍️
+
+**OBBLIGATORIO**: Ogni messaggio di commit DEVE iniziare con un emoji appropriato prima del tipo:
+
+```
+✨ feat: aggiungi metodo per calcolare il tasso di crescita della pelliccia
+🐛 fix: correggi la validazione dell'età nel costruttore Alpaca
+📚 docs: aggiorna README con esempi di utilizzo
+✅ test: aggiungi test per il metodo feed
+♻️ refactor: riorganizza la struttura delle classi
+🎨 style: migliora la formattazione del codice
+🔧 chore: aggiorna dipendenze
+```
+
+**Emoji Raccomandate per i Commit:**
+- ✨ `:sparkles:` - Nuove funzionalità
+- 🐛 `:bug:` - Correzioni di bug
+- 📚 `:books:` - Documentazione
+- ✅ `:white_check_mark:` - Test
+- ♻️ `:recycle:` - Refactoring
+- 🎨 `:art:` - Miglioramenti di stile/formattazione
+- 🔧 `:wrench:` - File di configurazione
+- 🚀 `:rocket:` - Miglioramenti delle prestazioni
+- 🔒 `:lock:` - Correzioni di sicurezza
+- ⬆️ `:arrow_up:` - Aggiornamento dipendenze
+
+#### Nei Commenti del Codice 💬
+
+Usa emoji per evidenziare informazioni importanti:
+
+```ruby
+# 🚨 ATTENZIONE: Questo metodo modifica lo stato globale
+# 💡 SUGGERIMENTO: Usa questo metodo per ottimizzare le prestazioni
+# ⚠️ NOTA: Questo richiede Ruby 3.0+
+# 🔍 DEBUG: Punto di controllo per il troubleshooting
+# ✨ NOVITÀ: Aggiunta nella versione 2.0
+```
+
+#### Nelle Pull Request e nei Problemi 📝
+
+**OBBLIGATORIO**: Usa emoji nei titoli delle PR e dei problemi:
+
+- 🐛 Per segnalazioni di bug
+- ✨ Per richieste di funzionalità
+- 📚 Per miglioramenti della documentazione
+- ❓ Per domande
+- 💡 Per suggerimenti
+- 🚀 Per proposte di miglioramento delle prestazioni
+
+Esempio di titolo PR: "✨ Aggiungi supporto per l'autenticazione multi-fattore"
+Esempio di titolo problema: "🐛 L'applicazione si blocca quando si caricano file grandi"
+
+#### Nella Documentazione 📖
+
+Usa emoji liberamente per organizzare e abbellire la documentazione:
+
+- 📌 Per punti importanti
+- 💡 Per suggerimenti e best practice
+- ⚠️ Per avvertimenti
+- ✅ Per checklist e cose da fare
+- 🎯 Per obiettivi
+- 🔗 Per link e riferimenti
+
+### Risorse Emoji 🎁
+
+- [Emojipedia](https://emojipedia.org/) - Dizionario completo degli emoji
+- [Gitmoji](https://gitmoji.dev/) - Guida emoji per messaggi di commit
+- [GitHub Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) - Lista completa degli emoji GitHub
+
+### ❌ Non Farlo
+
+- Non inviare commit senza emoji
+- Non usare troppi emoji in una sola frase (massimo 2-3)
+- Non usare emoji inappropriati o offensivi
+- Non ignorare questa linea guida - è FONDAMENTALE! 🎯
+
+### ✅ Fallo
+
+- Usa emoji pertinenti e descrittivi
+- Sii coerente con l'uso degli emoji
+- Divertiti con gli emoji! 🎉
+- Rendi il tuo contributo visivamente accattivante 🌟
 
 ## Linee Guida per i Test
 
@@ -128,8 +229,10 @@ Scrivi messaggi di commit chiari e significativi:
 
 ### Formato
 
+**IMPORTANTE**: Ogni commit DEVE iniziare con un emoji! 🎨
+
 ```
-<tipo>: <breve riepilogo>
+<emoji> <tipo>: <breve riepilogo>
 
 <descrizione dettagliata opzionale>
 ```
@@ -146,23 +249,34 @@ Scrivi messaggi di commit chiari e significativi:
 
 ### Esempi
 
+**✅ CORRETTO** (con emoji):
+
+```
+✨ feat: aggiungi metodo per calcolare il tasso di crescita della pelliccia
+
+🐛 fix: correggi la validazione dell'età nel costruttore Alpaca
+
+📚 docs: aggiorna README con esempi di utilizzo
+
+✅ test: aggiungi test per il metodo feed
+```
+
+**❌ SBAGLIATO** (senza emoji - NON ACCETTABILE):
+
 ```
 feat: aggiungi metodo per calcolare il tasso di crescita della pelliccia
-
 fix: correggi la validazione dell'età nel costruttore Alpaca
-
-docs: aggiorna README con esempi di utilizzo
-
-test: aggiungi test per il metodo feed
 ```
 
 ### Migliori Pratiche
 
+- **🎯 USA SEMPRE UN EMOJI** - Questo è obbligatorio!
 - Usa il modo imperativo ("aggiungi funzionalità" non "aggiunta funzionalità")
-- Mantieni la prima riga sotto i 50 caratteri
-- Inizia con la lettera maiuscola
+- Mantieni la prima riga sotto i 50 caratteri (escluso l'emoji)
+- Inizia con la lettera maiuscola dopo l'emoji e il tipo
 - Nessun punto alla fine del riepilogo
 - Fornisci contesto aggiuntivo nel corpo se necessario
+- Scegli l'emoji appropriato che riflette meglio il cambiamento 🎨
 
 ## Processo di Pull Request
 
@@ -191,11 +305,13 @@ test: aggiungi test per il metodo feed
    - Vai al repository originale su GitHub
    - Clicca su "New Pull Request"
    - Seleziona il tuo fork e branch
+   - **🎯 IMPORTANTE: Inizia il titolo della PR con un emoji appropriato!**
    - Compila il template della PR con:
      - Descrizione chiara delle modifiche
      - Perché le modifiche sono necessarie
      - Come testare le modifiche
      - Eventuali problemi correlati
+   - Usa emoji nel corpo della PR per evidenziare sezioni importanti 🌟
 
 6. **Rispondi ai feedback**:
    - Affronta i commenti della revisione prontamente
@@ -217,6 +333,8 @@ Se trovi un bug o hai un suggerimento:
 - Raccogli informazioni rilevanti sul problema
 
 ### Creazione di un Problema
+
+**🎯 RICORDA: Inizia sempre il titolo del problema con un emoji!** (es. 🐛 per bug, ✨ per funzionalità)
 
 Includi le seguenti informazioni:
 
