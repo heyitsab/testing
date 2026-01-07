@@ -1,263 +1,263 @@
-# Kuchangia Katika Hazina ya Testing
+# Contribuire al Repository Testing
 
-Asante kwa nia yako ya kuchangia katika mradi huu! Tunakaribishia michango kutoka kwa kila mtu na tunathamini juhudi zako za kusaidia kuboresha hazina hii.
+Grazie per il tuo interesse nel contribuire a questo progetto! Diamo il benvenuto ai contributi di tutti e apprezziamo il tuo impegno nel migliorare questo repository.
 
-## Yaliyomo
+## Indice
 
-- [Kanuni za Tabia](#kanuni-za-tabia)
-- [Kuanza](#kuanza)
-- [Usanidi wa Maendeleo](#usanidi-wa-maendeleo)
-- [Jinsi ya Kuchangia](#jinsi-ya-kuchangia)
-- [Viwango vya Uandishi wa Msimbo](#viwango-vya-uandishi-wa-msimbo)
-- [Miongozo ya Majaribio](#miongozo-ya-majaribio)
-- [Miongozo ya Ujumbe wa Commit](#miongozo-ya-ujumbe-wa-commit)
-- [Mchakato wa Pull Request](#mchakato-wa-pull-request)
-- [Kuripoti Matatizo](#kuripoti-matatizo)
-- [Maswali na Usaidizi](#maswali-na-usaidizi)
+- [Codice di Condotta](#codice-di-condotta)
+- [Per Iniziare](#per-iniziare)
+- [Configurazione dello Sviluppo](#configurazione-dello-sviluppo)
+- [Come Contribuire](#come-contribuire)
+- [Standard di Codifica](#standard-di-codifica)
+- [Linee Guida per i Test](#linee-guida-per-i-test)
+- [Linee Guida per i Messaggi di Commit](#linee-guida-per-i-messaggi-di-commit)
+- [Processo di Pull Request](#processo-di-pull-request)
+- [Segnalazione di Problemi](#segnalazione-di-problemi)
+- [Domande e Supporto](#domande-e-supporto)
 
-## Kanuni za Tabia
+## Codice di Condotta
 
-Kwa kushiriki katika mradi huu, unatarajiwa kushikilia ahadi yetu ya kutoa mazingira ya ukarimu na ujumuishaji kwa kila mtu. Tafadhali kuwa mwenye heshima, mwenye kuzingatia na kitaalamu katika mwingiliano wote.
+Partecipando a questo progetto, ci si aspetta che tu rispetti il nostro impegno a fornire un ambiente accogliente e inclusivo per tutti. Si prega di essere rispettosi, premurosi e professionali in tutte le interazioni.
 
-## Kuanza
+## Per Iniziare
 
-1. **Fanya fork ya hazina** kwenye akaunti yako ya GitHub
-2. **Clone fork yako** kwa mtandao wa ndani:
+1. **Fai un fork del repository** sul tuo account GitHub
+2. **Clona il tuo fork** localmente:
    ```bash
    git clone https://github.com/YOUR-USERNAME/REPOSITORY-NAME.git
    cd REPOSITORY-NAME
    ```
-3. **Unda tawi jipya** kwa ajili ya mabadiliko yako:
+3. **Crea un nuovo branch** per le tue modifiche:
    ```bash
    git checkout -b feature/your-feature-name
    ```
 
-## Usanidi wa Maendeleo
+## Configurazione dello Sviluppo
 
-Huu ni mradi wa Ruby. Ili kusanidi mazingira yako ya maendeleo:
+Questo è un progetto Ruby. Per configurare il tuo ambiente di sviluppo:
 
-### Mahitaji ya Awali
+### Prerequisiti
 
-- Ruby (toleo la 3.0 au juu linashauriwa)
+- Ruby (versione 3.0 o superiore raccomandata)
 - Git
 
-### Usakinishaji
+### Installazione
 
-1. Sakinisha vitegemezi (ikiwa vipo):
+1. Installa le dipendenze (se presenti):
    ```bash
    bundle install
    ```
-   Ikiwa bado huna Gemfile, unaweza kuruka hatua hii.
+   Se non hai ancora un Gemfile, puoi saltare questo passaggio.
 
-2. Thibitisha usanidi wako kwa kuendesha majaribio:
+2. Verifica la tua configurazione eseguendo i test:
    ```bash
    ruby alpaca_test.rb
    ```
 
-## Jinsi ya Kuchangia
+## Come Contribuire
 
-Tunakaribishia aina mbalimbali za michango:
+Diamo il benvenuto a vari tipi di contributi:
 
-- **Marekebisho ya hitilafu**: Tusaidie kurekebisha matatizo katika msimbo
-- **Vipengele vipya**: Ongeza utendaji mpya ili kuboresha mradi
-- **Nyaraka**: Boresha au ongeza nyaraka
-- **Majaribio**: Ongeza au boresha upeo wa majaribio
-- **Uboreshaji wa msimbo**: Boresha ubora wa msimbo na uwezo wa kudumishwa
+- **Correzioni di bug**: Aiutaci a risolvere i problemi nel codice
+- **Nuove funzionalità**: Aggiungi nuove funzionalità per migliorare il progetto
+- **Documentazione**: Migliora o aggiungi documentazione
+- **Test**: Aggiungi o migliora la copertura dei test
+- **Refactoring del codice**: Migliora la qualità e la manutenibilità del codice
 
-### Kabla Hujaanza
+### Prima di Iniziare
 
-- Angalia ukurasa wa Matatizo ili kuona ikiwa mtu anafanya kazi tayari kipengele au marekebisho ya hitilafu sawa
-- Kwa mabadiliko makubwa, tafadhali fungua tatizo kwanza ili kujadili unachotaka kubadilisha
-- Hakikisha mabadiliko yako yanalingana na malengo na upeo wa mradi
+- Controlla la pagina dei Problemi per vedere se qualcuno sta già lavorando su una funzionalità simile o correzione di bug
+- Per modifiche importanti, apri prima un problema per discutere cosa vorresti cambiare
+- Assicurati che le tue modifiche siano in linea con gli obiettivi e l'ambito del progetto
 
-## Viwango vya Uandishi wa Msimbo
+## Standard di Codifica
 
-Tafadhali fuata viwango hivi vya uandishi wa msimbo ili kudumisha uthabiti:
+Si prega di seguire questi standard di codifica per mantenere la coerenza:
 
-### Mwongozo wa Mtindo wa Ruby
+### Guida allo Stile Ruby
 
-- Fuata [Mwongozo wa Mtindo wa Ruby](https://rubystyle.guide/)
-- Tumia nafasi 2 kwa indentation (si tabs)
-- Weka mistari kwa urefu unaofaa (herufi 80-120)
-- Tumia majina ya vigeuzi na mbinu zinazofafanua
-- Andika maoni wazi na mafupi inapohitajika
+- Segui la [Guida allo Stile Ruby](https://rubystyle.guide/)
+- Usa 2 spazi per l'indentazione (non tab)
+- Mantieni le righe a una lunghezza ragionevole (80-120 caratteri)
+- Usa nomi descrittivi per variabili e metodi
+- Scrivi commenti chiari e concisi quando necessario
 
-### Ubora wa Msimbo
+### Qualità del Codice
 
-- **Hakuna kauli za utatuzi**: Ondoa kauli zote za `puts` na wito wa `binding.pry` kabla ya kuwasilisha PR yako
-  - Seti yetu ya majaribio inakagua hizi na itashindwa ikiwa zipo
-- **Weka rahisi**: Andika msimbo safi na unaosomeka
-- **Kanuni ya DRY**: Usirudie Mwenyewe - tumia tena msimbo inapofaa
-- **Wajibu Mmoja**: Kila mbinu ifanye jambo moja vizuri
+- **Nessuna istruzione di debug**: Rimuovi tutte le istruzioni `puts` e le chiamate `binding.pry` prima di inviare la tua PR
+  - La nostra suite di test controlla questi e fallirà se sono presenti
+- **Mantienilo semplice**: Scrivi codice pulito e leggibile
+- **Principio DRY**: Non Ripeterti - riutilizza il codice quando appropriato
+- **Responsabilità Singola**: Ogni metodo dovrebbe fare una cosa bene
 
-### Nyaraka
+### Documentazione
 
-- Ongeza maoni kwa mantiki changamano
-- Sasisha nyaraka ikiwa unabadilisha utendaji
-- Jumuisha mifano inaposaidia
+- Aggiungi commenti per la logica complessa
+- Aggiorna la documentazione se modifichi la funzionalità
+- Includi esempi dove utile
 
-## Miongozo ya Majaribio
+## Linee Guida per i Test
 
-Mabadiliko yote ya msimbo yanapaswa kujumuisha majaribio yanayofaa:
+Tutte le modifiche al codice dovrebbero includere i test appropriati:
 
-### Kuendesha Majaribio
+### Esecuzione dei Test
 
-Endesha seti ya majaribio ili kuthibitisha mabadiliko yako:
+Esegui la suite di test per verificare le tue modifiche:
 
 ```bash
 ruby alpaca_test.rb
 ```
 
-### Kuandika Majaribio
+### Scrittura dei Test
 
-- Andika majaribio kwa vipengele vipya na marekebisho ya hitilafu
-- Fuata muundo wa majaribio uliopokuwepo na itifaki za majina
-- Hakikisha majaribio yote yanapita kabla ya kuwasilisha PR yako
-- Jaribu visa vya makali na hali za hitilafu
+- Scrivi test per nuove funzionalità e correzioni di bug
+- Segui la struttura dei test esistente e le convenzioni di denominazione
+- Assicurati che tutti i test passino prima di inviare la tua PR
+- Testa i casi limite e le condizioni di errore
 
-### Mahitaji ya Majaribio
+### Requisiti dei Test
 
-- Majaribio yanapaswa kuwa wazi na yanayoelezea
-- Kila jaribio linapaswa kujaribu tabia moja maalum
-- Tumia ujumbe wa uthibitisho wenye maana
-- Safisha data yoyote ya majaribio au hali baada ya majaribio kuendesha
+- I test dovrebbero essere chiari e descrittivi
+- Ogni test dovrebbe testare un comportamento specifico
+- Usa messaggi di asserzione significativi
+- Pulisci eventuali dati di test o stato dopo l'esecuzione dei test
 
-## Miongozo ya Ujumbe wa Commit
+## Linee Guida per i Messaggi di Commit
 
-Andika ujumbe wa commit ulio wazi na wenye maana:
+Scrivi messaggi di commit chiari e significativi:
 
-### Umbizo
-
-```
-<aina>: <muhtasari mfupi>
-
-<maelezo ya kina ya hiari>
-```
-
-### Aina
-
-- `feat`: Kipengele kipya
-- `fix`: Marekebisho ya hitilafu
-- `docs`: Mabadiliko ya nyaraka
-- `style`: Mabadiliko ya mtindo wa msimbo (uumbizaji, n.k.)
-- `refactor`: Uboreshaji wa msimbo
-- `test`: Kuongeza au kusasisha majaribio
-- `chore`: Kazi za matengenezo
-
-### Mifano
+### Formato
 
 ```
-feat: ongeza mbinu ya kuhesabu kiwango cha ukuaji wa sufi
+<tipo>: <breve riepilogo>
 
-fix: sahihisha uthibitishaji wa umri katika kijengaji cha Alpaca
-
-docs: sasisha README na mifano ya matumizi
-
-test: ongeza majaribio kwa mbinu ya feed
+<descrizione dettagliata opzionale>
 ```
 
-### Mbinu Bora
+### Tipi
 
-- Tumia hali ya kiamri ("ongeza kipengele" si "imeongezwa kipengele")
-- Weka mstari wa kwanza chini ya herufi 50
-- Herufi kubwa ya kwanza
-- Hakuna kipindi mwishoni mwa muhtasari
-- Toa muktadha wa ziada katika mwili inahitajika
+- `feat`: Una nuova funzionalità
+- `fix`: Una correzione di bug
+- `docs`: Modifiche alla documentazione
+- `style`: Modifiche allo stile del codice (formattazione, ecc.)
+- `refactor`: Refactoring del codice
+- `test`: Aggiunta o aggiornamento dei test
+- `chore`: Attività di manutenzione
 
-## Mchakato wa Pull Request
+### Esempi
 
-1. **Sasisha tawi lako** na mabadiliko ya hivi karibuni kutoka kwa main:
+```
+feat: aggiungi metodo per calcolare il tasso di crescita della lana
+
+fix: correggi la validazione dell'età nel costruttore Alpaca
+
+docs: aggiorna README con esempi di utilizzo
+
+test: aggiungi test per il metodo feed
+```
+
+### Migliori Pratiche
+
+- Usa il modo imperativo ("aggiungi funzionalità" non "aggiunta funzionalità")
+- Mantieni la prima riga sotto i 50 caratteri
+- Inizia con la lettera maiuscola
+- Nessun punto alla fine del riepilogo
+- Fornisci contesto aggiuntivo nel corpo se necessario
+
+## Processo di Pull Request
+
+1. **Aggiorna il tuo branch** con le ultime modifiche da main:
    ```bash
    git fetch origin
    git rebase origin/main
    ```
 
-2. **Endesha majaribio yote** ili kuhakikisha hakuna kilichovunjika:
+2. **Esegui tutti i test** per assicurarti che nulla sia rotto:
    ```bash
    ruby alpaca_test.rb
    ```
 
-3. **Thibitisha ubora wa msimbo**:
-   - Ondoa kauli zozote za utatuzi (`puts`, `binding.pry`)
-   - Angalia uumbizaji na mtindo sahihi
-   - Hakikisha maoni yote ni wazi na muhimu
+3. **Verifica la qualità del codice**:
+   - Rimuovi eventuali istruzioni di debug (`puts`, `binding.pry`)
+   - Controlla la formattazione e lo stile corretti
+   - Assicurati che tutti i commenti siano chiari e necessari
 
-4. **Sukuma mabadiliko yako** kwenye fork yako:
+4. **Pusha le tue modifiche** sul tuo fork:
    ```bash
    git push origin feature/your-feature-name
    ```
 
-5. **Unda Pull Request**:
-   - Nenda kwenye hazina asili kwenye GitHub
-   - Bofya "New Pull Request"
-   - Chagua fork yako na tawi
-   - Jaza kiolezo cha PR na:
-     - Maelezo wazi ya mabadiliko
-     - Kwa nini mabadiliko yanahitajika
-     - Jinsi ya kujaribu mabadiliko
-     - Matatizo yoyote yanayohusiana
+5. **Crea una Pull Request**:
+   - Vai al repository originale su GitHub
+   - Clicca su "New Pull Request"
+   - Seleziona il tuo fork e branch
+   - Compila il template della PR con:
+     - Descrizione chiara delle modifiche
+     - Perché le modifiche sono necessarie
+     - Come testare le modifiche
+     - Eventuali problemi correlati
 
-6. **Jibu maoni**:
-   - Shughulikia maoni ya mapitio haraka
-   - Fanya mabadiliko yaliyoombwa katika commits mpya
-   - Sasisha PR yako na muktadha wa ziada inahitajika
+6. **Rispondi ai feedback**:
+   - Affronta i commenti della revisione prontamente
+   - Apporta le modifiche richieste in nuovi commit
+   - Aggiorna la tua PR con contesto aggiuntivo se necessario
 
-7. **Ngoja idhini**:
-   - Angalau mapitio ya mdumisha mmoja yanahitajika
-   - Ukaguzi wote wa CI lazima upite
-   - Baada ya kuidhinishwa, mdumisha atachanganya PR yako
+7. **Attendi l'approvazione**:
+   - È richiesta almeno una revisione del maintainer
+   - Tutti i controlli CI devono passare
+   - Una volta approvato, un maintainer unirà la tua PR
 
-## Kuripoti Matatizo
+## Segnalazione di Problemi
 
-Ikiwa unapata hitilafu au una pendekezo:
+Se trovi un bug o hai un suggerimento:
 
-### Kabla ya Kuunda Tatizo
+### Prima di Creare un Problema
 
-- Tafuta matatizo yaliyopo ili kuepuka nakala
-- Kusanya taarifa husika kuhusu tatizo
+- Cerca i problemi esistenti per evitare duplicati
+- Raccogli informazioni rilevanti sul problema
 
-### Kuunda Tatizo
+### Creazione di un Problema
 
-Jumuisha taarifa zifuatazo:
+Includi le seguenti informazioni:
 
-- **Kichwa wazi**: Eleza kwa ufupi tatizo
-- **Maelezo**: Maelezo ya kina ya tatizo au pendekezo
-- **Hatua za kurudia** (kwa hitilafu):
-  1. Ulichofanya
-  2. Ulichotarajia kutokea
-  3. Kilichotokea kwa kweli
-- **Maelezo ya mazingira**:
-  - Toleo la Ruby
-  - Mfumo wa uendeshaji
-  - Usanidi wowote husika
-- **Sampuli za msimbo**: Jumuisha msimbo mdogo wa kurudia tatizo
-- **Ujumbe wa hitilafu**: Jumuisha ujumbe kamili wa hitilafu na athari za stack
+- **Titolo chiaro**: Descrivi brevemente il problema
+- **Descrizione**: Spiegazione dettagliata del problema o suggerimento
+- **Passaggi per riprodurre** (per i bug):
+  1. Cosa hai fatto
+  2. Cosa ti aspettavi che accadesse
+  3. Cosa è successo effettivamente
+- **Dettagli dell'ambiente**:
+  - Versione di Ruby
+  - Sistema operativo
+  - Qualsiasi configurazione rilevante
+- **Esempi di codice**: Includi codice minimo per riprodurre il problema
+- **Messaggi di errore**: Includi messaggi di errore completi e stack trace
 
-### Lebo za Tatizo
+### Etichette dei Problemi
 
-Tunatumia lebo kukategorisha matatizo:
+Utilizziamo etichette per categorizzare i problemi:
 
-- `bug`: Kitu hakifanyi kazi
-- `enhancement`: Kipengele kipya au ombi
-- `documentation`: Maboresho ya nyaraka
-- `good first issue`: Nzuri kwa wajanja
-- `help wanted`: Umakini wa ziada unahitajika
+- `bug`: Qualcosa non funziona
+- `enhancement`: Nuova funzionalità o richiesta
+- `documentation`: Miglioramenti alla documentazione
+- `good first issue`: Buono per i principianti
+- `help wanted`: È necessaria attenzione extra
 
-## Maswali na Usaidizi
+## Domande e Supporto
 
-Ikiwa una maswali au unahitaji msaada:
+Se hai domande o hai bisogno di aiuto:
 
-- **Angalia matatizo yaliyopo**: Swali lako linaweza kuwa limejibiwa tayari
-- **Fungua tatizo jipya**: Tumia kifuatiliaji cha matatizo kwa maswali
-- **Kuwa na subira**: Wadumishaji watajibu haraka iwezekanavyo
-- **Kuwa mwenye heshima**: Kumbuka kwamba wadumishaji mara nyingi ni wajitoleaji
+- **Controlla i problemi esistenti**: La tua domanda potrebbe già avere risposta
+- **Apri un nuovo problema**: Usa il tracker dei problemi per le domande
+- **Sii paziente**: I maintainer risponderanno il prima possibile
+- **Sii rispettoso**: Ricorda che i maintainer sono spesso volontari
 
-## Utambuzi
+## Riconoscimenti
 
-Wachangiaji wote watatambuliwa kwa michango yao. Asante kwa kufanya mradi huu kuwa bora zaidi!
+Tutti i contributori saranno riconosciuti per i loro contributi. Grazie per aver reso questo progetto migliore!
 
 ---
 
-**Kuchangia Furaha!** 🎉
+**Buon Contributo!** 🎉
 
-Tunashukuru muda wako na juhudi katika kuchangia katika mradi huu. Kila mchango, haijalishi ni mdogo kiasi gani, unafanya tofauti!
+Apprezziamo il tuo tempo e impegno nel contribuire a questo progetto. Ogni contributo, non importa quanto piccolo, fa la differenza!
