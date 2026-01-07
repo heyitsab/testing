@@ -66,7 +66,7 @@ Tunakaribishia aina mbalimbali za michango:
 
 ### Kabla Hujaanza
 
-- Angalia ukurasa wa Matatizo ili kuona ikiwa mtu anaendesha tayari kipengele au marekebisho ya hitilafu sawa
+- Angalia ukurasa wa Matatizo ili kuona ikiwa mtu anafanya kazi tayari kipengele au marekebisho ya hitilafu sawa
 - Kwa mabadiliko makubwa, tafadhali fungua tatizo kwanza ili kujadili unachotaka kubadilisha
 - Hakikisha mabadiliko yako yanalingana na malengo na upeo wa mradi
 
