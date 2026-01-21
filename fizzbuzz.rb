@@ -12,10 +12,6 @@ class FizzBuzz
   end
 
   def self.run(limit = 100)
-    result = []
-    (1..limit).each do |i|
-      result << generate(i)
-    end
-    result
+    (1..limit).map { |i| generate(i) }
   end
 end
