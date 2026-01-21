@@ -40,6 +40,8 @@ The testing file includes automated checks to ensure code quality:
 
 ### Creating and Using an Alpaca
 
+Here's an example of how to use the Alpaca class in your own Ruby script (note: the code quality checks only apply to `alpaca.rb`, not to external scripts that use the class):
+
 ```ruby
 require_relative 'alpaca'
 
