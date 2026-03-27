@@ -129,4 +129,5 @@ A collection of animals rendered in ASCII art.
  \  |      | /
   '-'------'-'
    /  |  |  \
+  (__)     (__)
 ```
