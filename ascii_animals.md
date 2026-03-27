@@ -1,3 +1,5 @@
+<div style="color: green">
+
 # ASCII Animal Art 🐾
 
 A collection of animals rendered in ASCII art.
@@ -322,4 +324,52 @@ A collection of animals rendered in ASCII art.
 
 ---
 
+## Wolf 🐺
+
+```
+        / \__
+    ___/    o \
+   /   \  __  /
+  / ,,  `'  \|
+ /  \   \    |
+|    \   |   |
+ \    `--'  /
+  `--------'
+```
+
+---
+
+## Bat 🦇
+
+```
+  /\   /\
+ /  \ /  \
+| () V () |
+ \   |   /
+  \  |  /
+   \_|_/
+    | |
+    | |
+   / . \
+```
+
+---
+
+## Parrot 🦜
+
+```
+    _
+   /o\
+  (   )
+  /|=|\
+ / | | \
+   | |
+   | |
+  / \ / \
+```
+
+---
+
 *Enjoy the menagerie!* 🌿
+
+</div>
