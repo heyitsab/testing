@@ -1,129 +1,129 @@
-# Knock Knock Jokes 🚪😂
+<h1><span style="color:green">🚪 </span><span style="color:red">K</span><span style="color:orange">n</span><span style="color:gold">o</span><span style="color:green">c</span><span style="color:blue">k</span><span style="color:indigo"> </span><span style="color:violet">K</span><span style="color:red">n</span><span style="color:orange">o</span><span style="color:gold">c</span><span style="color:green">k</span><span style="color:blue"> </span><span style="color:indigo">J</span><span style="color:violet">o</span><span style="color:red">k</span><span style="color:orange">e</span><span style="color:gold">s</span><span style="color:green"> 😂</span></h1>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Lettuce.** 🥬
-Lettuce who?
-**Lettuce in, it's cold out here!** 🥶
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Lettuce.** 🥬</span><br>
+<span style="color:green">Lettuce who?</span><br>
+<span style="color:limegreen">**Lettuce in, it's cold out here!** 🥶</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Cow says.** 🐄
-Cow says who?
-**No silly, cow says moo!** 🐮
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Cow says.** 🐄</span><br>
+<span style="color:green">Cow says who?</span><br>
+<span style="color:limegreen">**No silly, cow says moo!** 🐮</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Interrupting cow.** 🐄
-Interrupting cow wh—
-**MOO!** 😂
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Interrupting cow.** 🐄</span><br>
+<span style="color:green">Interrupting cow wh—</span><br>
+<span style="color:limegreen">**MOO!** 😂</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Atch.** 🤧
-Atch who?
-**Bless you!** 🤧✨
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Atch.** 🤧</span><br>
+<span style="color:green">Atch who?</span><br>
+<span style="color:limegreen">**Bless you!** 🤧✨</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Olive.** 🫒
-Olive who?
-**Olive you and I miss you!** ❤️
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Olive.** 🫒</span><br>
+<span style="color:green">Olive who?</span><br>
+<span style="color:limegreen">**Olive you and I miss you!** ❤️</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Nobel.** 🏅
-Nobel who?
-**Nobel, that's why I knocked!** 👊
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Nobel.** 🏅</span><br>
+<span style="color:green">Nobel who?</span><br>
+<span style="color:limegreen">**Nobel, that's why I knocked!** 👊</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Tank.** 🪖
-Tank who?
-**You're welcome!** 😄
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Tank.** 🪖</span><br>
+<span style="color:green">Tank who?</span><br>
+<span style="color:limegreen">**You're welcome!** 😄</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Boo.** 👻
-Boo who?
-**Don't cry, it's just a joke!** 😂
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Boo.** 👻</span><br>
+<span style="color:green">Boo who?</span><br>
+<span style="color:limegreen">**Don't cry, it's just a joke!** 😂</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Ice cream.** 🍦
-Ice cream who?
-**Ice cream if you don't let me in!** 😱
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Ice cream.** 🍦</span><br>
+<span style="color:green">Ice cream who?</span><br>
+<span style="color:limegreen">**Ice cream if you don't let me in!** 😱</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Dishes.** 🍽️
-Dishes who?
-**Dishes the police, open up!** 🚔
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Dishes.** 🍽️</span><br>
+<span style="color:green">Dishes who?</span><br>
+<span style="color:limegreen">**Dishes the police, open up!** 🚔</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Banana.** 🍌
-Banana who?
-**Knock knock.** 🚪
-Who's there? 🤔
-**Banana.** 🍌
-Banana who?
-**Knock knock.** 🚪
-Who's there? 🤔
-**Orange.** 🍊
-Orange who?
-**Orange you glad I didn't say banana?** 😂🍌
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Banana.** 🍌</span><br>
+<span style="color:green">Banana who?</span><br>
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Banana.** 🍌</span><br>
+<span style="color:green">Banana who?</span><br>
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Orange.** 🍊</span><br>
+<span style="color:green">Orange who?</span><br>
+<span style="color:limegreen">**Orange you glad I didn't say banana?** 😂🍌</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Hawaii.** 🌺
-Hawaii who?
-**I'm fine, Hawaii you?** 🤙
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Hawaii.** 🌺</span><br>
+<span style="color:green">Hawaii who?</span><br>
+<span style="color:limegreen">**I'm fine, Hawaii you?** 🤙</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Dozen.** 🥚
-Dozen who?
-**Dozen anyone want to let me in?** 😤
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Dozen.** 🥚</span><br>
+<span style="color:green">Dozen who?</span><br>
+<span style="color:limegreen">**Dozen anyone want to let me in?** 😤</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Needle.** 🪡
-Needle who?
-**Needle little help getting in the door!** 🙏
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Needle.** 🪡</span><br>
+<span style="color:green">Needle who?</span><br>
+<span style="color:limegreen">**Needle little help getting in the door!** 🙏</span>
 
 ---
 
-**Knock knock.** 🚪
-Who's there? 🤔
-**Wooden shoe.** 👟
-Wooden shoe who?
-**Wooden shoe like to hear another joke?** 😏
+<span style="color:green">**Knock knock.** 🚪</span><br>
+<span style="color:green">Who's there? 🤔</span><br>
+<span style="color:green">**Wooden shoe.** 👟</span><br>
+<span style="color:green">Wooden shoe who?</span><br>
+<span style="color:limegreen">**Wooden shoe like to hear another joke?** 😏</span>
