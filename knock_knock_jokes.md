@@ -1,129 +1,129 @@
-# Knock Knock Jokes
+# Knock Knock Jokes 🚪😂
 
 ---
 
-**Knock knock.**
-Who's there?
-**Lettuce.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Lettuce.** 🥬
 Lettuce who?
-**Lettuce in, it's cold out here!**
+**Lettuce in, it's cold out here!** 🥶
 
 ---
 
-**Knock knock.**
-Who's there?
-**Cow says.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Cow says.** 🐄
 Cow says who?
-**No silly, cow says moo!**
+**No silly, cow says moo!** 🐮
 
 ---
 
-**Knock knock.**
-Who's there?
-**Interrupting cow.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Interrupting cow.** 🐄
 Interrupting cow wh—
-**MOO!**
+**MOO!** 😂
 
 ---
 
-**Knock knock.**
-Who's there?
-**Atch.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Atch.** 🤧
 Atch who?
-**Bless you!**
+**Bless you!** 🤧✨
 
 ---
 
-**Knock knock.**
-Who's there?
-**Olive.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Olive.** 🫒
 Olive who?
-**Olive you and I miss you!**
+**Olive you and I miss you!** ❤️
 
 ---
 
-**Knock knock.**
-Who's there?
-**Nobel.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Nobel.** 🏅
 Nobel who?
-**Nobel, that's why I knocked!**
+**Nobel, that's why I knocked!** 👊
 
 ---
 
-**Knock knock.**
-Who's there?
-**Tank.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Tank.** 🪖
 Tank who?
-**You're welcome!**
+**You're welcome!** 😄
 
 ---
 
-**Knock knock.**
-Who's there?
-**Boo.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Boo.** 👻
 Boo who?
-**Don't cry, it's just a joke!**
+**Don't cry, it's just a joke!** 😂
 
 ---
 
-**Knock knock.**
-Who's there?
-**Ice cream.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Ice cream.** 🍦
 Ice cream who?
-**Ice cream if you don't let me in!**
+**Ice cream if you don't let me in!** 😱
 
 ---
 
-**Knock knock.**
-Who's there?
-**Dishes.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Dishes.** 🍽️
 Dishes who?
-**Dishes the police, open up!**
+**Dishes the police, open up!** 🚔
 
 ---
 
-**Knock knock.**
-Who's there?
-**Banana.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Banana.** 🍌
 Banana who?
-**Knock knock.**
-Who's there?
-**Banana.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Banana.** 🍌
 Banana who?
-**Knock knock.**
-Who's there?
-**Orange.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Orange.** 🍊
 Orange who?
-**Orange you glad I didn't say banana?**
+**Orange you glad I didn't say banana?** 😂🍌
 
 ---
 
-**Knock knock.**
-Who's there?
-**Hawaii.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Hawaii.** 🌺
 Hawaii who?
-**I'm fine, Hawaii you?**
+**I'm fine, Hawaii you?** 🤙
 
 ---
 
-**Knock knock.**
-Who's there?
-**Dozen.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Dozen.** 🥚
 Dozen who?
-**Dozen anyone want to let me in?**
+**Dozen anyone want to let me in?** 😤
 
 ---
 
-**Knock knock.**
-Who's there?
-**Needle.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Needle.** 🪡
 Needle who?
-**Needle little help getting in the door!**
+**Needle little help getting in the door!** 🙏
 
 ---
 
-**Knock knock.**
-Who's there?
-**Wooden shoe.**
+**Knock knock.** 🚪
+Who's there? 🤔
+**Wooden shoe.** 👟
 Wooden shoe who?
-**Wooden shoe like to hear another joke?**
+**Wooden shoe like to hear another joke?** 😏
