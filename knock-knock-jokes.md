@@ -12,9 +12,9 @@ Lettuce in, it's cold out here!
 
 **Knock knock.**
 Who's there?
-Cow says.
-Cow says who?
-No silly, cow says moo!
+Canoe.
+Canoe who?
+Canoe help me with my homework?
 
 ---
 
@@ -68,9 +68,9 @@ You're welcome!
 
 **Knock knock.**
 Who's there?
-Nana.
-Nana who?
-Nana your business!
+Spell.
+Spell who?
+W-H-O.
 
 ---
 
