@@ -12,9 +12,9 @@ Lettuce in, it's cold out here!
 
 **Knock knock.**
 Who's there?
-Canoe.
-Canoe who?
-Canoe help me with my homework?
+Déjà.
+Déjà who?
+Knock knock.
 
 ---
 
@@ -76,9 +76,9 @@ W-H-O.
 
 **Knock knock.**
 Who's there?
-Wooden shoe.
-Wooden shoe who?
-Wooden shoe like to hear another joke?
+Doctor.
+Doctor who?
+That's right, now you're getting it!
 
 ---
 
@@ -100,17 +100,17 @@ I'm fine, Hawaii you?
 
 **Knock knock.**
 Who's there?
-Olive.
-Olive who?
-Olive you and I miss you!
+Little old lady.
+Little old lady who?
+I didn't know you could yodel!
 
 ---
 
 **Knock knock.**
 Who's there?
-Europe.
-Europe who?
-No, YOU'RE a poo!
+Figs.
+Figs who?
+Figs the doorbell, I've been knocking for ten minutes!
 
 ---
 
