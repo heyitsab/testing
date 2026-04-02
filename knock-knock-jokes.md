@@ -119,3 +119,11 @@ Who's there?
 Ice cream.
 Ice cream who?
 Ice cream if you don't let me in!
+
+---
+
+**Knock knock.**
+Who's there?
+Alpaca.
+Alpaca who?
+Alpaca the suitcase, you pack the bags — let's get out of here!
