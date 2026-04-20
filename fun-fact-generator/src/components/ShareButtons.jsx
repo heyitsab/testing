@@ -13,15 +13,9 @@ export default function ShareButtons({ fact }) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // fallback for environments where clipboard API is unavailable
-      const el = document.createElement('textarea');
-      el.value = shareText;
-      document.body.appendChild(el);
-      el.select();
-      document.execCommand('copy');
-      document.body.removeChild(el);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+      // Clipboard API unavailable — notify the user rather than silently falling back
+      // to the deprecated execCommand which may not work in all contexts.
+      alert('Could not copy to clipboard. Please copy the text manually.');
     }
   }
 
